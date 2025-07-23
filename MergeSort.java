@@ -1,19 +1,3 @@
-/*mergeSort(arr, 0, 4)
-├── mergeSort(arr, 0, 2)
-│   ├── mergeSort(arr, 0, 1)
-│   │   ├── mergeSort(arr, 0, 0)
-│   │   └── mergeSort(arr, 1, 1)
-│   │   └── merge(arr, 0, 0, 1)
-│   └── mergeSort(arr, 2, 2)
-│   └── merge(arr, 0, 1, 2)
-└── mergeSort(arr, 3, 4)
-    ├── mergeSort(arr, 3, 3)
-    └── mergeSort(arr, 4, 4)
-    └── merge(arr, 3, 3, 4)
-
-Final: merge(arr, 0, 2, 4)
- */
-
 import java.util.Scanner;
 
 public class MergeSort {
