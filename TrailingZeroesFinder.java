@@ -15,11 +15,7 @@ public class TrailingZeroesFinder {
         }
         return count;
     }
-
-
-
-
-    
+   
     // Function to find the smallest number whose factorial has at least n trailing zeroes
     public static int findSmallestNumber(int n) {
         int low = 0, high = 5 * n;
